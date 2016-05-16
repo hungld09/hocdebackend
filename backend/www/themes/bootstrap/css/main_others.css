@@ -1,0 +1,225 @@
+span.stars, span.stars span {
+    display: block;
+    background: url("../../../images/star.gif") 0 0px repeat-x;
+    width: 80px;
+    height: 16px;
+    float: left;
+    margin-left:  170px;
+   
+}
+
+span.stars span {
+    background-position: 0 -32px;
+    margin-left:  0px;
+   
+}
+
+.img_date {
+    vertical-align: middle;
+}
+
+.rowDate {
+    height: 50px;
+    width: 220px;
+}
+
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	display:inline !important;
+}
+
+textarea.textinput {
+    width: 100%;
+    resize: none;
+}
+
+.editField {
+    display: none;
+}
+
+.legend {
+    padding-left:5px; 
+    padding-right:5px
+}
+
+.colStyle {
+    font-family: none;
+}
+
+.colButton {
+    padding-left: 20px!important;
+}
+
+.colEditStyle {
+    font-family: none !important;
+}
+
+.activeImage {
+    
+     background: url("../../../images/active.png")no-repeat scroll 0 50% transparent;
+  
+    width: 24px;
+    cursor: pointer;
+}
+
+.inactiveImage {
+    background: url("../../../images/inactive.png")no-repeat scroll 0 50% transparent;
+    width: 24px;
+    cursor: pointer;
+}
+
+.freeImage {
+    
+     background: url("../../../images/free-icon2.png")no-repeat scroll 0 50% transparent;
+  
+    width: 32px;
+    cursor: pointer;
+}
+
+.notFreeImage {
+    background: url("../../../images/not-free-icon2.gif")no-repeat scroll 0 50% transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.illegalImage {
+    
+     background: url("../../../images/illegal.png")no-repeat scroll 0 50% transparent;
+  
+    width: 24px;
+    cursor: pointer;
+}
+
+.loaderImage {
+    background: url("../../../images/loader.gif") no-repeat scroll 0 50% transparent;
+    width: 24px;
+    cursor: pointer;
+}
+
+.searchImage {
+    background: url("../../../images/search.png") no-repeat scroll 0 50% transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.upImage {
+    background: url("../../../images/up-icon.png") no-repeat scroll 0 50% transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.downImage {
+    background: url("../../../images/down-icon.png") no-repeat scroll 0 50% transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.backImage {
+    background: url("../../../images/back-icon.png") no-repeat scroll 0 50% transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.forwardImage {
+    background: url("../../../images/forward-icon.png") no-repeat scroll 0 50% transparent;
+    width: 32px;
+    cursor: pointer;
+}
+
+.deleteImage {
+    background: url("../../../images/delete-icon-md.png") no-repeat scroll 0 50% transparent;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#listAssets tr.jqgrow td {
+
+white-space:nowrap;
+height: 28px !important;
+}
+
+/* multiselect styles */
+.multiselect {
+        width: 460px;
+        height: 200px;
+}
+
+#switcher {
+        margin-top: 20px;
+}
+
+form {margin: 0; padding: 0;}
+
+div.rating-cancel,div.rating-cancel a{
+    margin-left: 170px !important;
+}
+
+ #gallery {
+    padding: 10px;
+    background: #e1eef5;
+  }
+  
+.ad-gallery {
+  width: 500px !important;
+}
+.ad-gallery .ad-image-wrapper {
+  height: 300px !important;
+}
+.ad-gallery .ad-thumb-list {
+   min-width: 500px !important;  
+}
+
+#descriptions .ad-image-description {
+        position: relative;
+        padding: 7px;
+        text-align: left;
+        width: 90%;
+        z-index: 2;
+        background: url("../../../images/opa75.png");
+        color: #000;
+      }
+
+
+
+input {			
+      border:1px solid #ccc;
+      font-size: 10pt;			
+      padding: 5px 10px 5px 10px;			
+      border-radius:10px;
+      -moz-border-radius: 10px;			
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;		
+}
+
+input[type=button] {
+    background-image: -moz-linear-gradient(top, #ffffff, #dfdfdf);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf));
+    cursor:pointer;
+}  
+input[type=submit] {
+    background-image: -moz-linear-gradient(top, #ffffff, #dfdfdf);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf));
+    cursor:pointer;
+} 
+
+/* fieldset { */
+/* 	display: block; */
+/* 	border: 2px groove threedface; */
+/* 	border-top-color: threedface; */
+/* 	border-top-style: groove; */
+/* 	border-top-width: 2px; */
+/* 	border-right-color: threedface; */
+/* 	border-right-style: groove; */
+/* 	border-right-width: 2px; */
+/* 	border-bottom-color: threedface; */
+/* 	border-bottom-style: groove; */
+/* 	border-bottom-width: 2px; */
+/* 	border-left-color: threedface; */
+/* 	border-left-style: groove; */
+/* 	border-left-width: 2px; */
+/* 	border-image: initial; */
+/* 	min-width: -webkit-min-content; */
+/* } */

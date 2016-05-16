@@ -1,0 +1,33 @@
+/* 
+    Document   : style
+    Created on : May 15, 2013, 2:32:21 PM
+    Author     : Cuongnv
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+.img_title {
+    
+}
+.h3_title {
+float: left;
+height: 25px;
+line-height: 25px;
+margin-left: 10px;
+
+}
+.morefilm {
+float: right;
+height: 24px;
+line-height: 20px;
+}
+
+

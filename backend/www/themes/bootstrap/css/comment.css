@@ -1,0 +1,47 @@
+.commentList {
+    margin-left: 280px;
+   
+    
+}
+.commentItem {
+    border-top: 1px solid #CCCCCC;
+    list-style: none outside none;
+    padding: 10px 0 20px;
+    position: relative;
+    
+   
+}
+.cite {
+    color: #1D7EC2;
+    font: bold 140%/110% Arial,Helvetica,sans-serif;
+}
+.time {
+    color: #71A9D2;
+    margin: -10px 0 10px;
+}
+.commentnumber {
+    color: #CCCCCC;
+    font: 200%/100% Georgia,"Times New Roman",Times,serif;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.summaryClass {
+    margin-left: 500px;
+}
+
+.editComment {
+    background: url("../images/comment-edit-icon.png") no-repeat scroll 0 50% transparent;
+    cursor: pointer;
+    float: right;
+    width: 32px;
+    margin-top: -15px
+}
+.cancelComment {
+    background: url("../images/comment-cancel-icon.png") no-repeat scroll 0 50% transparent;
+    cursor: pointer;
+    float: right;
+    width: 32px;
+    margin-top: -15px
+}

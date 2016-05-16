@@ -1,0 +1,545 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <title>ifilm - Sát Nhân Nhà Cao Tầng</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="stylesheet" href="/ifilm-mobileweb/themes/advance/css/themes/vinaphim/vinaphim.css" type="text/css" />
+        <link rel="stylesheet" href="/ifilm-mobileweb/themes/advance/css/themes/vinaphim/style.css" type="text/css" />
+        <link rel="stylesheet" href="/ifilm-mobileweb/themes/advance/css/jquery.mobile.structure-1.3.0.min.css" type="text/css" />
+        <link rel="stylesheet" href="/ifilm-mobileweb/themes/advance/css/jQMMfilm.css" type="text/css" />
+        <link rel="stylesheet" href="/ifilm-mobileweb/themes/advance/js/carousel/carousel.css" type="text/css" />
+        <link rel="stylesheet" href="/ifilm-mobileweb/themes/advance/js/carousel/carousel-style.css" type="text/css" />
+        <link rel="shortcut icon" href="/ifilm-mobileweb/images/viettel_icon.ico" type="image/x-icon" />
+        
+        <script type="text/javascript" src="/ifilm-mobileweb/themes/advance/js/jquery.js"></script>
+        <script type="text/javascript" src="/ifilm-mobileweb/themes/advance/js/vinaphim.js"></script>
+        <script type="text/javascript" src="/ifilm-mobileweb/themes/advance/js/jquery.mobile-1.3.1.min.js"></script>
+        <script type="text/javascript" src="/ifilm-mobileweb/themes/advance/js/carousel/carousel.js"></script>
+        <script type="text/javascript" src="/ifilm-mobileweb/themes/advance/js/jquery.raty.min.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','/ifilm-mobileweb/js/analytics.js','ga');
+
+	  ga('create', 'UA-42440981-3', 'ifilm.vn');
+	  ga('send', 'pageview');
+	</script>
+        <!-- Load css and js dynamic -->
+                
+    </head>
+    <body >
+        <div data-role="page" class="jqm-page" id="home_page" >
+           <!--Header-->
+            <div data-role="panel" class="jqm-nav-panel jqm-navmenu-panel"
+     data-position="left" data-display="push" data-theme="b"
+     id="sliding_menu" data-swipe-close="false" >
+    <ul data-role="listview" data-theme="b" data-divider-theme="b"
+        data-icon="false" data-global-nav="docs" class="jqm-list">
+        <li>
+            <a href="/ifilm-mobileweb/account" >Tài khoản của bạn</a>
+        </li>
+        <li>
+            <a href="/ifilm-mobileweb/" data-ajax="false">Trang chủ</a>
+        </li>
+        
+        <li data-role="list-divider">TOP PHIM</li>
+        <li><a href="/ifilm-mobileweb/video/browse/order/newest">Phim mới nhất</a></li>
+        <li><a href="/ifilm-mobileweb/video/browse/order/most_viewed">Xem nhiều nhất</a></li>
+
+        <li data-role="list-divider">PHIM THEO THỂ LOẠI</li>
+
+                    <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/38">Phim HD</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/free">Phim Miễn Phí</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/15">Phim Hành Động</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/33">Phim Kinh Điển</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/18">Phim Việt Nam</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/37">Phim Bộ</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/22">Phim Hàn Quốc</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/16">Phim Hoạt Hình</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/21">Phim Trung Quốc</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/31">Phim Cách Mạng</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/29">Phim Kiếm Hiệp</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/19">Phim Hài </a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/34">Phim Khoa Học</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/30">Phim Kinh Dị</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/35">Phim Tâm Lý</a></li>
+             
+                        <li><a data-ajax="false" href="/ifilm-mobileweb/video/browse/category/39">Trailer Hot</a></li>
+            
+        <li data-role="list-divider">LIÊN KẾt KHÁC</li>
+            <li><a href="/ifilm-mobileweb/site/feedback">Gửi phản hồi</a></li>
+        <!--<li><a href="#">Ứng Dụng ifilm</a></li>-->
+        <li><a href="/ifilm-mobileweb/account/service" >Giới thiệu dịch vụ</a></li>
+        <!-- <li><a href="/ifilm-mobileweb/news" >Tin tức</a></li> -->
+        <li><a href="http://www.facebook.com/ifilm" target="blank">ifilm facebook</a></li>
+        <li><a href="http://wap.Viettel.com.vn" target="blank">Viettel portal</a></li>
+    </ul>
+</div>
+<!--		<header>
+			<div class="top-head">
+				<a href="#" class="main-menu-link icon-menu fn-nav-show"></a>
+				<form name="frmSearch" id="frmSearch" class="frm-search" action="/ifilm-mobileweb/video/search">
+					<p class="text-box">
+						<input autocomplete="off" type="text" id="q" name="q" placeholder="Tìm kiếm" class="search-text-box" value="" />
+						<a href="#" class="delete-btn icon-cancel none" id="fnSearchReset"></a>
+						<a href="#" class="search-btn icon-search" id="fnSearchSubmit"></a>
+					</p>
+				</form>
+			</div>
+		</header>-->
+
+<div data-role="header" data-position="fixed"  class="jqm-header">
+    <a href="#sliding_menu" class="ui-btn-left" data-iconpos="notext"
+       data-icon="slide-menu"></a>
+    <h1 class="jqm-logo">
+        <a href="/ifilm-mobileweb/" data-ajax="false">iFilm</a>
+    </h1>
+    <a href="#search_page"  data-icon="btn-search" data-rel="popup"
+       class="ui-btn-right" data-iconpos="notext"></a>
+    <div data-role="popup" data-theme="b" id="search_page" data-overlay-theme="a" data-position-to="window" data-corners="true">
+        <a href="#" data-rel="back" data-role="button" data-theme="a"
+           data-icon="delete" data-iconpos="notext" class="ui-btn-left">Close</a>
+        <div data-role="content">
+            <form action="/ifilm-mobileweb/video/search" class="search">
+                <input type="search" name="q" id="q" value="" />
+                <input id="fnSearchSubmit" type="submit" name="submit" value="Go" />
+            </form>
+        </div>
+    </div>
+</div>            <!--End Header-->
+            <!--Cotent-->
+            <div data-role="content" class="jqm-content" id="view-content">
+                <style type="text/css">
+    caption { font-size: larger; margin: 1em auto; }
+</style>
+<script type="text/javascript">
+    function validateGiftNumber(price) {
+        if (document.gift_form.received_number.value.length == 0) {
+            alert("Số điện thoại không được để trống");
+        } else {
+            if (document.gift_form.received_number.value.match(/^\d+/)) {
+                if (document.gift_form.received_number.value.match(/^(84|0)(90|93|120|121|122|126|128)\d{7}$/)) {
+                        return confirm("Quý khách đã chọn tặng phim với giá " + price + " VNĐ?. Đồng ý?");
+                } else {
+                    alert("Số điện thoại không hợp lệ, vui lòng chọn thuê bao của Viettel và thử lại");
+                }
+            } else {
+                alert("Số điện thoại không hợp lệ, vui lòng nhập lại");
+            }
+        }
+        return false;
+    }
+    
+</script>
+<!--<div class="divider main-bg">
+	
+	<div style="float:right;"><a href="/ifilm-mobileweb/"><img width="120" src="/ifilm-mobileweb/images/ifilm_logo.png" alt="ifilm" /></a></div>
+	<div><a href="http://wap.Viettel.com.vn" target="blank"><img src="/ifilm-mobileweb/images/Viettel.png" width="120" alt="Viettel"></a></div>
+	<div class="clear_fix"></div>
+</div>-->
+<!--<div>
+    <a href="/ifilm-mobileweb/"><img style="margin:0;padding:0;width:100%;height:64px;" src="/ifilm-mobileweb/images/ifilm_header.jpg" /></a>
+</div>-->
+                <div id="error_notification" class="notification" align="center">
+                    <div style ="opacity:1;filter:alpha(opacity=100);">
+                <a href="#" onclick="return closeNofiticate();" style="float:left;"><img  src="/ifilm-mobileweb/themes/advance/images/i_error.png" /></a>
+                <p style="color:#000; text-shadow:none; font-size: 13px;">
+            Xin chào thuê bao <a style="color:white;" href="/ifilm-mobileweb/account">84986636879</a> Bạn chưa đăng ký gói cước. Đăng ký để xem miễn phí ngay <a style="color:white;" href="/ifilm-mobileweb/account">tại đây</a>                     </p>
+                    </div>
+                </div>
+               
+            
+
+               <!-- end errornotit-->
+    
+ <div style ="text-shadow:none;" id="main_page" data-theme="a">
+        <div data-role="content" class="jqm-content" >
+            <div class="content-top">
+            <a class="poster_img" href="#" >
+				<img style="height: 240px; width: 100%;"src="/web/uploadImage/20130310065018Columbus-Circle-2010-Movie-Poster.jpg" alt="">
+            </a>
+                                  <a id="icon_play" href="/ifilm-mobileweb/video/purchase?type=watch&id=u%2B2BaLJCNHs%3D" data-ajax="false"><img style="max-height: 50px; max-width: 50px;" border="0" src="/ifilm-mobileweb/themes/advance/images/btn_detail_play_normal.png">
+                    </a>
+                                    <div class="trailer"></div>
+                <div class="buttonaction">
+                        <a id="round" href="#" onclick=" alert('Video này không có trailer')" data-role="button" style="text-shadow: none;"  data-theme="a">
+                                            <img style="right: 100%;; position: absolute; max-height: 20px; max-width: 20px;" border="1" src="/ifilm-mobileweb/themes/advance/images/play_trailer.png">
+                                            Trailer</a>
+				</div>
+                                 <p class="orginal-title">
+					COLUMBUS CIRCLE 2012                </p>
+                <p class="display-title">
+					Sát Nhân Nhà Cao Tầng                </p>
+				<div class="separation_line">
+					<hr>
+				</div>
+				<div class="rate_spacer_time">
+                    <a href="#popuprate" data-rel="popup" data-position-to="window"  data-theme="a" data-transition="pop">
+                        <div id="half-demo" style="margin-bottom: 10px; background-color: transparent;">
+                        </div>
+                    </a>
+                    <img style="height: 20px; width: 3px;" border="0" src="/ifilm-mobileweb/themes/advance/images/setup_spacer.png">
+                    <img style="height: 20px; width: 20px;" border="0" src="/ifilm-mobileweb/themes/advance/images/clock.png">
+                     <p class="duration">
+					1 giờ và 25 phút					
+					 </p>
+                </div>
+                <div data-role="popup" data-theme="b" id="popuprate" data-overlay-theme="a" data-position-to="window" data-corners="true">
+                    <a href="#" data-rel="back" data-role="button" data-theme="a"
+                       data-icon="delete" data-iconpos="notext" class="ui-btn-left">Close</a>
+                    <div data-role="content" style="color:#fff; text-shadow: none;">
+                        <h3 >Đánh giá của bạn</h3>
+                        <div id="rate_star" class="rate_star"></div>
+                        <div id="title_star" ></div>
+                        <form action="" onsubmit="return rateStar();" class="search">
+                            <input id="fnSearchSubmit" type="submit" name="submit" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+                <div class="trailer" style="border-bottom: 1px solid rgba(136, 133, 133, 0.62); padding-bottom: 5px; box-shadow: 0px 2px 2px rgb(0, 0, 0);"></div>
+                            
+                                                </div>
+             <div class="content-bottom">
+             <div class="space">
+				<span class="textlabel">Thời lượng: </span>
+                                <span class="textinfo">85 phút </span>
+                            </div>
+                            <div class="space">
+				<span class="textlabel">Lượt xem: </span>
+                                <span class="textinfo">0 lượt </span>
+                            </div>
+                           <div class="space">
+				<span class="textlabel">Giá: </span>
+                                <span class="textinfo">2000 đồng </span>
+                            </div>
+                            <div class="space">
+				<span class="textlabel">Thể loại: </span>
+                                <span class="textinfo"> Phim Hành Động,Phim Kinh Dị,</span>
+                            </div>
+                            <div class="space">
+				<span class="textlabel">Đạo Diễn:  </span>
+                                <span class="textinfo">George Gallo</span>
+                            </div >
+                            <div class="space">
+				<span class="textlabel">Diễn viên: </span>
+                                <span class="textinfo">Selma Blair, Amy Smart, Jason Lee, Giovanni Ribisi, Kevin Pollak...</span>
+                            </div>
+                        <p id="" class="textinfo">Abigail Clayton sống một mình. Rất đơn độc. Trong thực tế, người thừa kế hấp dẫn đã không rời khỏi căn hộ loft Manhattan của cô trong gần hai thập kỷ qua.Con gái nổi tiếng của một nhà công nghiệp giàu có, Abigail biến mất khỏi các con mắt tò mò của báo chí và intrusiveness của gia đình cô vào ngày sinh nhật thứ 18 của cô, cô đã nhận được thừa kế khổng lồ của mình.</p>
+            </div>
+        </div>
+    <div class="trailer" style="border-bottom: 1px solid #000; padding-bottom: 5px;"></div>
+    <div id="relateVOD" class="box-film" >
+                <div class="box-title">
+                    <div class="ui-bar ui-bar-d">
+                        <img style="width: 20px;height: 18px; float: left; margin-right: 10px;" src="/ifilm-mobileweb/themes/advance/images/ic_movie.png">
+                        <h3>PHIM CÙNG THỂ LOẠI</h3>
+                    </div>
+                </div>
+        <div class="trailer" style="padding-bottom: 5px;"></div>
+                <div class="ui-grid-a">
+                                                            <div class="ui-block-a">
+                                    <!--<div class="content-items">
+	<div class="emborder"><a href="/ifilm-mobileweb/video/1315"><img src="/web/uploadImage/20130416115456Grave-Encounters-Poster-e1328196241617.jpg" alt="Đối Đầu Quỷ Dữ" class="poster-img" /></a></div>
+	<div>
+		<h3><a href="/ifilm-mobileweb/video/1315" style="color:#000;">Đối Đầu Quỷ Dữ</a></h3>
+		<p style="font-style:italic;color:#000;font-weight:normal;margin-right:20px;">93 phút, 503 lượt xem</p>
+		<p style="margin-left:140px;"><a href="/ifilm-mobileweb/video/purchase?type=watch&id=KMxNyjgmYHU%3D"><span class="icon-film"> </span>Xem</a> (2000đ)</p>
+	</div>
+	<span class="right-arrow"></span>
+</div>-->
+
+    <div class="img_thumbnail">
+    <div class="img_poster">
+        <a href="/ifilm-mobileweb/video/1315" data-ajax="false">
+            <img style="width: 120px; height: 80px" src="/web/uploadImage/20130416115456Grave-Encounters-Poster-e1328196241617.jpg" alt="Đối Đầu Quỷ Dữ">
+        </a>
+        <div class="film_discription">
+	        <span class="film_title_original">Grave Encounters (2011)</span>
+	        <span class="film_title">Đối Đầu Quỷ Dữ</span>
+	        <!--<span class="film_title_normal">93 phút</span>
+	        --><span id="star_1315"></span>
+        </div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+$('#star_1315').raty({ readOnly: true, score: 0.00,
+                                              path: "/ifilm-mobileweb/themes/advance/images/"
+                                            });
+</script>
+                                </div>
+                                                                <div class="ui-block-b">
+                                    <!--<div class="content-items">
+	<div class="emborder"><a href="/ifilm-mobileweb/video/951"><img src="/web/uploadImage/20130311120353mission_impossible_3_.jpg" alt="Nhiệm Vụ Bất Khả Thi 3" class="poster-img" /></a></div>
+	<div>
+		<h3><a href="/ifilm-mobileweb/video/951" style="color:#000;">Nhiệm Vụ Bất Khả Thi 3</a></h3>
+		<p style="font-style:italic;color:#000;font-weight:normal;margin-right:20px;">125 phút, 500 lượt xem</p>
+		<p style="margin-left:140px;"><a href="/ifilm-mobileweb/video/purchase?type=watch&id=nL3YjSMrqb4%3D"><span class="icon-film"> </span>Xem</a> (2000đ)</p>
+	</div>
+	<span class="right-arrow"></span>
+</div>-->
+
+    <div class="img_thumbnail">
+    <div class="img_poster">
+        <a href="/ifilm-mobileweb/video/951" data-ajax="false">
+            <img style="width: 120px; height: 80px" src="/web/uploadImage/20130311120353mission_impossible_3_.jpg" alt="Nhiệm Vụ Bất Khả Thi 3">
+        </a>
+        <div class="film_discription">
+	        <span class="film_title_original">Mission: Impossible 3</span>
+	        <span class="film_title">Nhiệm Vụ Bất Khả Thi 3</span>
+	        <!--<span class="film_title_normal">125 phút</span>
+	        --><span id="star_951"></span>
+        </div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+$('#star_951').raty({ readOnly: true, score: 3.29,
+                                              path: "/ifilm-mobileweb/themes/advance/images/"
+                                            });
+</script>
+                                </div>
+                                                                <div class="ui-block-a">
+                                    <!--<div class="content-items">
+	<div class="emborder"><a href="/ifilm-mobileweb/video/843"><img src="/web/uploadImage/20130304015315black_hawk_down_2001.jpg" alt="Diều Hâu Gãy Cánh" class="poster-img" /></a></div>
+	<div>
+		<h3><a href="/ifilm-mobileweb/video/843" style="color:#000;">Diều Hâu Gãy Cánh</a></h3>
+		<p style="font-style:italic;color:#000;font-weight:normal;margin-right:20px;">140 phút, 500 lượt xem</p>
+		<p style="margin-left:140px;"><a href="/ifilm-mobileweb/video/purchase?type=watch&id=mAV6CsSjN%2FQ%3D"><span class="icon-film"> </span>Xem</a> (2000đ)</p>
+	</div>
+	<span class="right-arrow"></span>
+</div>-->
+
+    <div class="img_thumbnail">
+    <div class="img_poster">
+        <a href="/ifilm-mobileweb/video/843" data-ajax="false">
+            <img style="width: 120px; height: 80px" src="/web/uploadImage/20130304015315black_hawk_down_2001.jpg" alt="Diều Hâu Gãy Cánh">
+        </a>
+        <div class="film_discription">
+	        <span class="film_title_original">Black Hawk Down 2001</span>
+	        <span class="film_title">Diều Hâu Gãy Cánh</span>
+	        <!--<span class="film_title_normal">140 phút</span>
+	        --><span id="star_843"></span>
+        </div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+$('#star_843').raty({ readOnly: true, score: 4.14,
+                                              path: "/ifilm-mobileweb/themes/advance/images/"
+                                            });
+</script>
+                                </div>
+                                                                <div class="ui-block-b">
+                                    <!--<div class="content-items">
+	<div class="emborder"><a href="/ifilm-mobileweb/video/979"><img src="/web/uploadImage/20130312032015soldiers_of_fortune_2012.jpg" alt="Chiến Binh Dân Chơi " class="poster-img" /></a></div>
+	<div>
+		<h3><a href="/ifilm-mobileweb/video/979" style="color:#000;">Chiến Binh Dân Chơi </a></h3>
+		<p style="font-style:italic;color:#000;font-weight:normal;margin-right:20px;">94 phút, 500 lượt xem</p>
+		<p style="margin-left:140px;"><a href="/ifilm-mobileweb/video/purchase?type=watch&id=cZ8zWQMcOyM%3D"><span class="icon-film"> </span>Xem</a> (2000đ)</p>
+	</div>
+	<span class="right-arrow"></span>
+</div>-->
+
+    <div class="img_thumbnail">
+    <div class="img_poster">
+        <a href="/ifilm-mobileweb/video/979" data-ajax="false">
+            <img style="width: 120px; height: 80px" src="/web/uploadImage/20130312032015soldiers_of_fortune_2012.jpg" alt="Chiến Binh Dân Chơi ">
+        </a>
+        <div class="film_discription">
+	        <span class="film_title_original">Soldiers Of Fortune 2012</span>
+	        <span class="film_title">Chiến Binh Dân Chơi </span>
+	        <!--<span class="film_title_normal">94 phút</span>
+	        --><span id="star_979"></span>
+        </div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+$('#star_979').raty({ readOnly: true, score: 3.31,
+                                              path: "/ifilm-mobileweb/themes/advance/images/"
+                                            });
+</script>
+                                </div>
+                                                                <div class="ui-block-a">
+                                    <!--<div class="content-items">
+	<div class="emborder"><a href="/ifilm-mobileweb/video/1163"><img src="/web/uploadImage/20130328050125mission_impossible_3_2006.jpg" alt="Nhiệm Vụ Bất Khả Thi " class="poster-img" /></a></div>
+	<div>
+		<h3><a href="/ifilm-mobileweb/video/1163" style="color:#000;">Nhiệm Vụ Bất Khả Thi </a></h3>
+		<p style="font-style:italic;color:#000;font-weight:normal;margin-right:20px;">125 phút, 500 lượt xem</p>
+		<p style="margin-left:140px;"><a href="/ifilm-mobileweb/video/purchase?type=watch&id=CYlwhDfhObU%3D"><span class="icon-film"> </span>Xem</a> (0đ)</p>
+	</div>
+	<span class="right-arrow"></span>
+</div>-->
+
+    <div class="img_thumbnail">
+    <div class="img_poster">
+        <a href="/ifilm-mobileweb/video/1163" data-ajax="false">
+            <img style="width: 120px; height: 80px" src="/web/uploadImage/20130328050125mission_impossible_3_2006.jpg" alt="Nhiệm Vụ Bất Khả Thi ">
+        </a>
+        <div class="film_discription">
+	        <span class="film_title_original">Mission Impossible III 2006</span>
+	        <span class="film_title">Nhiệm Vụ Bất Khả Thi </span>
+	        <!--<span class="film_title_normal">125 phút</span>
+	        --><span id="star_1163"></span>
+        </div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+$('#star_1163').raty({ readOnly: true, score: 0.00,
+                                              path: "/ifilm-mobileweb/themes/advance/images/"
+                                            });
+</script>
+                                </div>
+                                                   
+                </div>
+            </div>
+    
+<div id="footer" align="center">
+    <div id="footer_info" style="text-shadow: none;color: #FFF;">
+        <div class="copy"> © 2013 <a href="http://wap.viettelmobile.com.vn/" target="blank"><img src="/ifilm-mobileweb/images/viettel_icon.ico" alt="Viettel"></a></div>
+        <span style="font-size: 12px; color:white; text-shadow:none;">Powered by Nam Viet Corporation</span>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+    var loadMore = true;
+    $(document).ready(function() {
+        //Cuong them
+          $('#half-demo').raty({
+              width: 100,
+              path    : '/ifilm-mobileweb/themes/advance/images',
+               half    : true,
+            starOff : 'star-on.png',
+            starOn  : 'star-on.png',
+            starHalf: 'star-on.png',
+            score: 4.57,
+            readOnly: true
+          });
+        // end
+        $('.confirmation').click(function(e) {
+            if (!confirm("Quý khách muốn đăng ký gói cước " + $(this).text() + ", xin bấm OK để xác nhận?")) {
+                e.preventDefault();
+            }
+        });
+        $('#purchase_film, #purchase_download').click(function(e) {
+            if (!confirm("Quý khách ch�?n mua nội dung lẻ, xin bấm OK để xác nhận?")) {
+                e.preventDefault();
+            }
+        });
+        
+        $('#viewmore').click(function(){
+           if(loadMore){
+                $(".detail_content").css({ "height":"auto"});
+     //           $(this).hide();
+                $(this).html('Rút g�?n');
+                loadMore = false;
+           }else{
+               $(".detail_content").css({ "height":"100px"});
+     //           $(this).hide();
+                $(this).html('Xem thêm');
+                loadMore = true;
+           }
+           return false;
+      });
+     
+//     $("#tang_bt").fancybox({
+//         topRatio:0.2,
+//         minHeight:54
+//     });
+     $('#rate_star').raty({target: '#title_star',
+                           path: "/ifilm-mobileweb/themes/advance/images/",
+                           size     : 24,
+                            starOff : 'star-on.png',
+                            starOn  : 'star1_big.png',
+                            starHalf: 'star2_big.png',
+                           targetKeep: true,
+                           targetText: 'Chưa đánh giá',
+                           hints: ['Dở ẹc', 'Dở', 'Tạm được', 'Hay', 'Rất hay']
+                          });
+//
+//     //INit star vod
+//    $('#star_asset').raty({ readOnly: true, score: 4.57,
+//                                              path: "/ifilm-mobileweb/themes/advance/images/"
+//                                            });
+//
+    });
+    var base_link = $('#play_video_direct').attr('href');
+        
+    function rateStar(){
+        star =  $('#rate_star').raty('score');
+        if(star <= 0 || star > 5){
+            aler("Xin vui lòng đánh giá phim!");
+            return false;
+        }
+        url = '/ifilm-mobileweb/video/RateVOD';
+        $.getJSON(url,{vod: '874', rate: star})
+        .done(function(json){
+            alert(json.message);
+            
+        })
+        .fail(function (jqxhr, textStatus, error){
+            var err = textStatus + ', ' + error;
+            alert( "Request Failed: " + err);
+           
+        });
+        return false;
+    }
+</script>
+
+<div id="tangphim" style="display: none">
+<form  method="post" onsubmit="return validateGiftNumber(2000);" action="/ifilm-mobileweb/video/purchase?type=gift&id=u%2B2BaLJCNHs%3D" name="gift_form" id="gift_form">
+    <div >
+        <p><span class="icon-gift highlight">Nhập số điện thoại</span></p>
+        <input type="text" value="" name="received_number" id="received_number" style="width:80px">
+        <input type="submit" value="Tặng" class="button" name="submit" >
+    </div>
+</form>
+</div>
+            </div>
+            <!--End Content-->
+            
+            <!--Footer-->
+            
+            <!--End Footer-->
+       </div>
+    </body>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           
+           $( "#sliding_menu" ).on( "panelopen",  function( event, ui ) {
+               maxHeight = $( "#sliding_menu .ui-panel-inner" ).height();
+               console.log("open slide:" + maxHeight);
+               $('#view-content').height(maxHeight);
+            });
+           $( "#sliding_menu" ).on( "panelclose",  function( event, ui ) {
+               console.log("close slide");
+               $('#view-content').removeAttr('style');
+            }); 
+        });
+    </script>
+</html>
